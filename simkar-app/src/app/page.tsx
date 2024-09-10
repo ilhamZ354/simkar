@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Background from "./components/login/background";
+import LoginLayout from "./layouts/loginLayout";
 
 export default function Home() {
   return (
     <>
-      <Background />
+      <LoginLayout />
     </>
   );
 }

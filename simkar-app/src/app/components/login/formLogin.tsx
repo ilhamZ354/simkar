@@ -5,15 +5,17 @@ export default function FormLogin () {
         <>
             <InputType
             type="text"
-            size="md"
+            size="lg"
             label="Username"
             name="username"
+            color="cyan"
         />
             <InputType
-            type="text"
-            size="md"
-            label="Username"
-            name="username"
+            type="password"
+            size="lg"
+            label="Password"
+            name="password"
+            color="cyan"
             />
         </>
     )

@@ -1,7 +1,9 @@
+'use client'
+
 import { Input } from "@material-tailwind/react";
 
 export default function InputType (props : any) {
-    const { type, size, label, name, variant, value, onChange } = props
+    const { type, size, label, name, color, variant, value, onChange } = props
 
     return (
         <div className="mb-6">
@@ -10,6 +12,7 @@ export default function InputType (props : any) {
                 size={size}
                 label={label}
                 variant={variant}
+                color={color}
                 name={name}
                 value={value}
                 onChange={onChange}
